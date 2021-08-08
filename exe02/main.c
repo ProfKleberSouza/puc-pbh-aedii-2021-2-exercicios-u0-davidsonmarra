@@ -3,9 +3,9 @@
 int main() {
    // ENTRADAS: tempo, velocidade media e rendimento
    int t, v, r;
-
-   // PROCESSAMENTO
    scanf("%i %i %i", &t, &v, &r);
+
+   // PROCESSAMENTO: calculo da distancia e da quantidade de litros gasto
    int d = v * t;
    int l = d / r;
 

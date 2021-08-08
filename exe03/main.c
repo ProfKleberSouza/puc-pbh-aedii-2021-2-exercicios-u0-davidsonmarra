@@ -3,9 +3,9 @@
 int main() {
    // ENTRADAS: um numero
    int n;
-   
-   // PROCESSAMENTO
    scanf("%i", &n);
+   
+   // PROCESSAMENTO: se um numero n eh par ou impar e positivo ou negativo
    if(n == 0) // numero igual a 0
       printf("NUMERO NEUTRO"); // SAIDA
    else if(n % 2 == 0) // numero par 
