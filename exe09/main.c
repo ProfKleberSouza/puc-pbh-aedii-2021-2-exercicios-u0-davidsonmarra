@@ -39,6 +39,9 @@ void melhoresAlunos(struct Alunos alunos[], struct Alunos maiores[], int N) {
    }
 }
 
+/* Descricao: procedimento que printa os 3 melhores alunos em ordem alfabetica
+Entradas: vetor de struct de maiores notas preenchido
+Saida: nome e nota dos 3 melhores alunos em ordem alfabetica */
 void ordemAlfabetica(struct Alunos maiores[]) {
    if(strcmp(maiores[0].nome, maiores[1].nome) < 0 && strcmp(maiores[0].nome, maiores[2].nome) < 0) {
       printf("%s %.1f\n", maiores[0].nome, maiores[0].nota);
