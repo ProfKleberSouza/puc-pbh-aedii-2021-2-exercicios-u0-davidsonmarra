@@ -9,8 +9,8 @@ int main() {
    int maior = aux, menor = aux;
    for(int i = 0; i < N - 1; i++) {
       scanf("%i", &aux);
-      aux > maior ? maior = aux : ""; // PROCESSAMENTO
-      aux < menor ? menor = aux : ""; // PROCESSAMENTO
+      aux > maior ? maior = aux : maior; // PROCESSAMENTO
+      aux < menor ? menor = aux : menor; // PROCESSAMENTO
    }
 
    // SAIDA
