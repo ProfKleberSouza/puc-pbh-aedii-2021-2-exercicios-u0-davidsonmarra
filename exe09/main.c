@@ -17,7 +17,7 @@ void preencheVetor(struct Alunos alunos[], int n, float * media) {
       scanf("%s %f", &alunos[i].nome, &alunos[i].nota);
       aux += alunos[i].nota;
    }
-   * media = aux / N;
+   * media = aux / n;
 }
 
 /* Descricao: procedimento que preenche o vetor maiores com os 3 alunos que tiveram a maior nota
